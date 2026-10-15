@@ -50,9 +50,9 @@
     </style>
   </defs>
 
-  <rect x="0" y="0" width="894" height="570" rx="28" class="bgCard"/>
-  <rect x="0" y="0" width="894" height="570" rx="28" class="grid"/>
-  <rect x="1" y="1" width="892" height="568" rx="27" class="strokeCard"/>
+  <rect x="0" y="0" width="894" height="570" class="bgCard"/>
+  <rect x="0" y="0" width="894" height="570" class="grid"/>
+  <rect x="1" y="1" width="892" height="568" class="strokeCard"/>
 
   <circle cx="742.0" cy="102.6" r="156" fill="url(#glowA)" filter="url(#softBlur)"/>
   <circle cx="160.9" cy="484.5" r="124" fill="url(#glowB)" filter="url(#softBlur)"/>
@@ -92,7 +92,7 @@
   <tspan x="64" dy="0">Most of what I know came from trying ideas, breaking them, and</tspan>
   <tspan x="64" dy="24">figuring out why.</tspan>
 </text>
-    <text x="64" y="564" class="footer" text-anchor="start">
+    <text x="64" y="540" class="footer" text-anchor="start">
   <tspan x="64" dy="0">Questionable tools. Serious intent.</tspan>
 </text>
   </g>
