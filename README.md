@@ -1,3 +1,3 @@
-<!-- All visible profile text is outlined inside profile.svg. -->
-
-<img src="./profile.svg" width="420" alt="Dustin - father of three, creator, developer">
+<p align="left">
+  <img src="./profile.svg" alt="Dustin profile card" width="894">
+</p>
