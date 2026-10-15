@@ -14,9 +14,9 @@
  .closing {fill:#8d8d95;font-size:15px;font-weight:400}
  </style>
 </defs>
-<rect width="894" height="570" rx="16" fill="url(#background)"/>
-<rect width="894" height="570" rx="16" fill="url(#light)"/>
-<rect x=".5" y=".5" width="893" height="569" rx="15.5" fill="none" stroke="#38383e"/>
+<rect width="894" height="570" fill="url(#background)"/>
+<rect width="894" height="570" fill="url(#light)"/>
+<rect x=".5" y=".5" width="893" height="569" fill="none" stroke="#38383e"/>
 <rect x="50" y="44" width="27" height="3" rx="1.5" fill="#FF0077"/>
 <text x="89" y="48" class="eyebrow">HELLO, I'M</text>
 <text x="49" y="119" class="name">DUSTIN.</text>
