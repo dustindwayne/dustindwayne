@@ -1,99 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="894" height="570" viewBox="0 0 894 570" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Dustin profile card</title>
-  <desc id="desc">GitHub profile card for Dustin with dark background, subtle light effects, and clean typography.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0e14"/>
-      <stop offset="48%" stop-color="#10151d"/>
-      <stop offset="100%" stop-color="#0b0c10"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(742.0 102.6) rotate(90) scale(182.4 196.7)">
-      <stop offset="0%" stop-color="#7c9dff" stop-opacity="0.48"/>
-      <stop offset="55%" stop-color="#7c9dff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#7c9dff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160.9 484.5) rotate(90) scale(125.4 223.5)">
-      <stop offset="0%" stop-color="#6fe7ff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#6fe7ff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c9dff" stop-opacity="0.0"/>
-      <stop offset="45%" stop-color="#7c9dff" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#9cb7ff" stop-opacity="0.2"/>
-    </linearGradient>
-    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="28"/>
-    </filter>
-    <filter id="smallBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
-    </filter>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
-    </pattern>
-    <style>
-      .bgCard { fill: url(#bg); }
-      .grid { fill: url(#grid); opacity: 0.42; }
-      .strokeCard { fill: none; stroke: rgba(255,255,255,0.12); stroke-width: 1; }
-      .eyebrow { font-family: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', sans-serif; font-size: 13px; font-weight: 350; letter-spacing: 2.8px; fill: rgba(255,255,255,0.56); }
-      .title { font-family: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', sans-serif; font-size: 48px; font-weight: 700; letter-spacing: 1.8px; fill: #f4f7ff; filter: url(#shadow); }
-      .subtitle { font-family: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: 0.1px; fill: #f4f7ff; }
-      .body { font-family: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', sans-serif; font-size: 20px; font-weight: 350; letter-spacing: 0.1px; fill: rgba(244,247,255,0.9); }
-      .footer { font-family: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', sans-serif; font-size: 16px; font-style: italic; font-weight: 300; letter-spacing: 0.25px; fill: rgba(244,247,255,0.62); }
-      .divider { stroke: rgba(255,255,255,0.12); stroke-width: 1; }
-      .accentLine { stroke: url(#lineGlow); stroke-width: 2.5; stroke-linecap: round; filter: url(#smallBlur); }
-      .accentLineCore { stroke: #7c9dff; stroke-width: 1.2; stroke-linecap: round; opacity: 0.95; }
-      .node { fill: #7c9dff; opacity: 0.9; filter: url(#smallBlur); }
-      .nodeCore { fill: #ffffff; opacity: 0.95; }
-    </style>
-  </defs>
-
-  <rect x="0" y="0" width="894" height="570" class="bgCard"/>
-  <rect x="0" y="0" width="894" height="570" class="grid"/>
-  <rect x="1" y="1" width="892" height="568" class="strokeCard"/>
-
-  <circle cx="742.0" cy="102.6" r="156" fill="url(#glowA)" filter="url(#softBlur)"/>
-  <circle cx="160.9" cy="484.5" r="124" fill="url(#glowB)" filter="url(#softBlur)"/>
-
-  <path d="M 554.3 108.3 C 652.6 108.3, 751.0 136.8, 831.4 199.5" class="accentLine"/>
-  <path d="M 554.3 108.3 C 652.6 108.3, 751.0 136.8, 831.4 199.5" class="accentLineCore"/>
-  <circle cx="554.3" cy="108.3" r="7" class="node"/>
-  <circle cx="554.3" cy="108.3" r="2.3" class="nodeCore"/>
-  <circle cx="831.4" cy="199.5" r="7" class="node"/>
-  <circle cx="831.4" cy="199.5" r="2.3" class="nodeCore"/>
-
-  <path d="M 652.6 433.2 C 706.3 399.0, 777.8 376.2, 849.3 347.7" class="accentLine" opacity="0.7"/>
-  <path d="M 652.6 433.2 C 706.3 399.0, 777.8 376.2, 849.3 347.7" class="accentLineCore" opacity="0.62"/>
-
-  <g>
-    <text x="64" y="74" class="eyebrow" text-anchor="start">
-  <tspan x="64" dy="0">PROFILE / README</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" width="894" height="570" viewBox="0 0 894 570" role="img" aria-labelledby="title desc">
+<title id="title">Dustin | About</title>
+<desc id="desc">Father of three. Autistic, self-taught, making games, tools and exploring how things work.</desc>
+<defs>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111111"/><stop offset="0.55" stop-color="#1b1b1d"/><stop offset="1" stop-color="#232326"/></linearGradient>
+ <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(821 18) rotate(132) scale(390 330)"><stop stop-color="#FF0077" stop-opacity=".15"/><stop offset=".42" stop-color="#FF0077" stop-opacity=".035"/><stop offset="1" stop-color="#FF0077" stop-opacity="0"/></radialGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="894" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#FF0077"/><stop offset=".42" stop-color="#FF0077" stop-opacity=".24"/><stop offset="1" stop-color="#FF0077" stop-opacity="0"/></linearGradient>
+ <style>
+ text {font-family:'Bahnschrift','Arial Narrow',Arial,sans-serif}
+ .eyebrow {fill:#a1a1a7;font-size:11px;font-weight:400;letter-spacing:2.7px}
+ .name {fill:#f6f6f7;font-size:57px;font-weight:700;letter-spacing:.5px}
+ .lead {fill:#f4f4f4;font-size:21px;font-weight:600}
+ .body {fill:#c4c4c8;font-size:18px;font-weight:350}
+ .closing {fill:#8d8d95;font-size:15px;font-weight:400}
+ </style>
+</defs>
+<rect width="894" height="570" rx="16" fill="url(#background)"/>
+<rect width="894" height="570" rx="16" fill="url(#light)"/>
+<rect x=".5" y=".5" width="893" height="569" rx="15.5" fill="none" stroke="#38383e"/>
+<rect x="50" y="44" width="27" height="3" rx="1.5" fill="#FF0077"/>
+<text x="89" y="48" class="eyebrow">HELLO, I'M</text>
+<text x="49" y="119" class="name">DUSTIN.</text>
+<text x="51" y="169" class="lead">Father of three. That's the most important part of who I am.</text>
+<rect x="50" y="198" width="794" height="1" fill="#3d3d43"/>
+<rect x="50" y="198" width="370" height="1.5" fill="url(#accent)"/>
+<text x="50" y="241" class="body">
+<tspan x="50">Autistic, self-taught, and usually building something because</tspan>
+<tspan x="50" dy="26">I got curious and couldn't leave it alone.</tspan>
 </text>
-    <text x="64" y="126" class="title" text-anchor="start">
-  <tspan x="64" dy="0">DUSTIN</tspan>
+<text x="50" y="326" class="body">
+<tspan x="50">I make games with AI, build odd little tools, and spend a lot</tspan>
+<tspan x="50" dy="26">of time messing with software, local AI, GPU stuff, 3D, and design.</tspan>
 </text>
-    <text x="64" y="198" class="subtitle" text-anchor="start">
-  <tspan x="64" dy="0">Father of three first. That's the most important</tspan>
-  <tspan x="64" dy="26">part of who I am.</tspan>
+<text x="50" y="411" class="body">
+<tspan x="50">Most of what I know came from trying ideas, breaking them,</tspan>
+<tspan x="50" dy="26">and figuring out why.</tspan>
 </text>
-    <line x1="64" y1="278" x2="830" y2="278" class="divider"/>
-    <text x="64" y="312" class="body" text-anchor="start">
-  <tspan x="64" dy="0">Autistic, self-taught, and usually building something because</tspan>
-  <tspan x="64" dy="24">I got curious and couldn't leave it alone.</tspan>
-</text>
-    <text x="64" y="382" class="body" text-anchor="start">
-  <tspan x="64" dy="0">I make games with AI, build odd little tools, and spend a lot</tspan>
-  <tspan x="64" dy="24">of time messing with software, local AI, GPU stuff, 3D, and</tspan>
-  <tspan x="64" dy="24">design.</tspan>
-</text>
-    <text x="64" y="476" class="body" text-anchor="start">
-  <tspan x="64" dy="0">Most of what I know came from trying ideas, breaking them, and</tspan>
-  <tspan x="64" dy="24">figuring out why.</tspan>
-</text>
-    <text x="64" y="540" class="footer" text-anchor="start">
-  <tspan x="64" dy="0">Questionable tools. Serious intent.</tspan>
-</text>
-  </g>
+<path d="M50 480H844" stroke="#3d3d43"/>
+<text x="50" y="523" class="closing">QUESTIONABLE TOOLS. SERIOUS INTENT.</text>
+<rect x="50" y="536" width="45" height="2" rx="1" fill="#FF0077"/>
 </svg>
