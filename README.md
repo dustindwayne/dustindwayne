@@ -1,3 +1,3 @@
-<p align="left">
-  <img src="./profile.svg" alt="Dustin profile card" width="894">
+<p align="center">
+  <img src="./profile.svg" alt="Dustin Profile Card" width="890">
 </p>
